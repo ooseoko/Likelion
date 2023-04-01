@@ -1,14 +1,14 @@
 @import "../reset.css";
 
 .inner {
-  max-width: 1000px;
-  width: 600px;
+  max-width: 1380px;
   margin: 0 auto;
-  background-color: orange;
 }
+
 body {
   height: 800px;
 }
+
 .nav {
   height: 15%;
   text-align: center;
@@ -19,7 +19,6 @@ body {
 }
 
 .sc {
-  position: relative;
   height: 70%;
   display: flex;
   justify-content: center;
@@ -33,6 +32,7 @@ body {
 }
 .sc__name {
   font-size: 100px;
+  padding-bottom: 40px;
 }
 .ft {
   height: 15%;
