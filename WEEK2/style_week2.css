@@ -1,0 +1,41 @@
+@import "../reset.css";
+
+.inner {
+  max-width: 1000px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: orange;
+}
+body {
+  height: 800px;
+}
+.nav {
+  height: 15%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sc {
+  position: relative;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sc__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sc__name {
+  font-size: 100px;
+}
+.ft {
+  height: 15%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.3);
+}
